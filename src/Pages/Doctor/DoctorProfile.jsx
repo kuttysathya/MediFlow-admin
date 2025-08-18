@@ -53,7 +53,7 @@ const DoctorProfile = () => {
         </div>
 
         {/* Profile fields */}
-        <div className="w-full md:w-3/4 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="w-full md:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {[
             ["Name", "name"],
             ["Email", "email"],
@@ -62,7 +62,7 @@ const DoctorProfile = () => {
             ["Experience", "experience"],
             ["Fees (₹)", "fees"],
           ].map(([label, field]) => (
-            <div key={field}>
+            <div key={field} className="flex flex-col">
               <label className="block font-semibold mb-1">{label}</label>
               {isEdit ? (
                 <input
@@ -78,7 +78,7 @@ const DoctorProfile = () => {
           ))}
 
           {/* Availability */}
-          <div>
+          <div className="flex flex-col">
             <label className="font-semibold mb-1">Available?</label>
             {isEdit ? (
               <div className="flex gap-2 items-center">
@@ -97,7 +97,7 @@ const DoctorProfile = () => {
           </div>
 
           {/* Address */}
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-col">
             <label className="font-semibold mb-1">Address Line 1</label>
             {isEdit ? (
               <input
@@ -118,7 +118,7 @@ const DoctorProfile = () => {
               <p>{doctorProfile.address?.line1}</p>
             )}
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-col">
             <label className="font-semibold mb-1">Address Line 2</label>
             {isEdit ? (
               <input
@@ -141,7 +141,7 @@ const DoctorProfile = () => {
           </div>
 
           {/* About */}
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-col">
             <label className="font-semibold">About</label>
             {isEdit ? (
               <textarea
