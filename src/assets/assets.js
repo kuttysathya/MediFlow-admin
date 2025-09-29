@@ -13,6 +13,7 @@ import earning_icon from './earning_icon.svg'
 import patients_icon from './patients_icon.svg'
 import prescriptions from './prescriptions.svg'
 import review from './review.svg'
+import all_list from './all_list.svg'
 
 
 export const assets = {
@@ -30,5 +31,6 @@ export const assets = {
     appointments_icon,
     earning_icon,
     prescriptions,
-    review
+    review,
+    all_list
 }

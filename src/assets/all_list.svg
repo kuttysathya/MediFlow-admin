@@ -1,0 +1,29 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="8"
+    height="8"
+    viewBox="0 0 64 64"
+>
+  <!-- Notebook outline -->
+  <rect x="8" y="8" width="48" height="48" rx="4" ry="4" stroke="#3399ff" stroke-width="3" fill="none"/>
+
+  <!-- Notebook rings -->
+  <rect x="6" y="14" width="4" height="6" rx="2" ry="2" fill="#3399ff"/>
+  <rect x="6" y="28" width="4" height="6" rx="2" ry="2" fill="#3399ff"/>
+  <rect x="6" y="42" width="4" height="6" rx="2" ry="2" fill="#3399ff"/>
+
+  <!-- Top row (only 3 empty boxes) -->
+  <rect x="20" y="14" width="6" height="6" fill="#3399ff"/>
+  <rect x="30" y="14" width="6" height="6" fill="#3399ff"/>
+  <rect x="40" y="14" width="6" height="6" fill="#3399ff"/>
+
+  <!-- Middle row (2 empty boxes, 1 tick only) -->
+  <rect x="20" y="28" width="6" height="6" fill="#3399ff"/>
+  <rect x="30" y="28" width="6" height="6" fill="#3399ff"/>
+  <polyline points="43,29 45,31 49,27" fill="none" stroke="#3399ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom row (1 tick only + 2 empty boxes) -->
+  <polyline points="21,45 23,47 27,43" fill="none" stroke="#3399ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="30" y="42" width="6" height="6" fill="#3399ff"/>
+  <rect x="40" y="42" width="6" height="6" fill="#3399ff"/>
+</svg>
