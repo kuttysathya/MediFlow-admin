@@ -50,11 +50,11 @@ const Sidebar = () => {
             <p className='hidden md:block'>Calender</p>
           </NavLink>
           <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-prescriptions'}>
-            <img src={assets.list_icon} alt="" />
+            <img src={assets.prescriptions} alt="" />
             <p className='hidden md:block'>Prescriptions</p>
           </NavLink>
           <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-reviews'}>
-            <img src={assets.list_icon} alt="" />
+            <img src={assets.review} alt="" />
             <p className='hidden md:block'>Reviews</p>
           </NavLink>
         </ul>
