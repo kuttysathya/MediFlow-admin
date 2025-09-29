@@ -1,0 +1,29 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="128"
+    height="128"
+    viewBox="0 0 64 64"
+>
+  <!-- Clipboard -->
+  <rect x="10" y="6" width="44" height="52" rx="3" ry="3" stroke="#3399ff" stroke-width="2" fill="none"/>
+  <rect x="24" y="2" width="16" height="8" rx="2" ry="2" fill="#3399ff"/>
+  <circle cx="32" cy="6" r="1.5" fill="#fff"/>
+
+  <!-- Stars inside -->
+  <polygon points="16,18 17,21 20,21 18,23 19,26 16,24 13,26 14,23 12,21 15,21"
+           fill="#3399ff"/>
+  <polygon points="16,28 17,31 20,31 18,33 19,36 16,34 13,36 14,33 12,31 15,31"
+           fill="#3399ff"/>
+  <polygon points="16,38 17,41 20,41 18,43 19,46 16,44 13,46 14,43 12,41 15,41"
+           fill="#3399ff"/>
+
+  <!-- Lines inside -->
+  <line x1="24" y1="20" x2="46" y2="20" stroke="#3399ff" stroke-width="2"/>
+  <line x1="24" y1="30" x2="42" y2="30" stroke="#3399ff" stroke-width="2"/>
+  <line x1="24" y1="40" x2="46" y2="40" stroke="#3399ff" stroke-width="2"/>
+
+  <!-- Checkmark badge (overlapping border) -->
+  <circle cx="48" cy="48" r="10" fill="#3399ff"/>
+  <polyline points="44,48 47,51 52,45"
+            fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
