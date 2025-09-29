@@ -33,20 +33,20 @@ const Sidebar = () => {
       }
       {
         doctorToken && <ul className='text-[#515151]'>
-          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-dashboard'}>
-            <img className='ml-1.5' src={assets.home_icon} alt="" />
+          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 ml-1 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-dashboard'}>
+            <img src={assets.home_icon} alt="" />
             <p className='hidden md:block'>Dashboard</p>
           </NavLink>
           <NavLink className={({isActive})=>`flex items-center gap-2.5 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-appointments'}>
             <img className='w-8 h-8' src={assets.all_list} alt="" />
             <p className='hidden md:block'>Appointments</p>
           </NavLink>
-          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-profile'}>
-            <img className='ml-1.5' src={assets.people_icon} alt="" />
+          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 ml-1 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-profile'}>
+            <img src={assets.people_icon} alt="" />
             <p className='hidden md:block'>Profile</p>
           </NavLink>
-          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-calender'}>
-            <img className='ml-1.5' src={assets.appointment_icon} alt="" />
+          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 ml-1 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-calender'}>
+            <img src={assets.appointment_icon} alt="" />
             <p className='hidden md:block'>Calender</p>
           </NavLink>
           <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#f2f3ff] border-r-4 border-primary' : ''}`} to={'/doctor-prescriptions'}>
